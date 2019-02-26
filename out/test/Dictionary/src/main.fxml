@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main">
+   <children>
+      <FlowPane layoutX="-2.0" layoutY="-1.0" prefHeight="529.0" prefWidth="737.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+         <children>
+            <Pane id="topBar" prefHeight="64.0" prefWidth="794.0" styleClass="topBar" stylesheets="@style.css">
+               <effect>
+                  <DropShadow color="#aeaeae" height="32.86" radius="12.965" />
+               </effect>
+               <children>
+                  <JFXButton layoutX="37.0" layoutY="20.0" onAction="#load" text="Load" textFill="#00000036">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" translateX="-7.0">
+                           <image>
+                              <Image url="@menu.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <Label blendMode="HARD_LIGHT" layoutX="510.0" layoutY="7.0" prefHeight="51.0" prefWidth="284.0" text="The Dictionary" textFill="DARKSLATEGRAY">
+                     <font>
+                        <Font name="System Bold" size="35.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane id="sideBar" prefHeight="608.0" prefWidth="159.0" styleClass="sideBar" stylesheets="@style.css">
+               <children>
+                  <ToggleButton fx:id="addBtn" layoutY="111.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="200.0" stylesheets="@style.css" text="          add">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group" />
+                     </toggleGroup>
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="15.0">
+                           <image>
+                              <Image url="@add.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust hue="-0.07" saturation="-0.55" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="searchBtn" layoutY="156.0" mnemonicParsing="false" onAction="#search" prefHeight="25.0" prefWidth="200.0" stylesheets="@style.css" text="          search" toggleGroup="$group">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="15.0">
+                           <image>
+                              <Image url="@search.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust hue="-0.07" saturation="-0.55" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="validateBtn" layoutY="201.0" mnemonicParsing="false" onAction="#validate" prefHeight="25.0" prefWidth="200.0" stylesheets="@style.css" text="          validate" toggleGroup="$group">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="15.0">
+                           <image>
+                              <Image url="@compress.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust hue="-0.07" saturation="-0.55" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="sortBtn" layoutY="246.0" mnemonicParsing="false" onAction="#sort" prefHeight="64.0" prefWidth="112.0" stylesheets="@style.css" text="          sort" toggleGroup="$group">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="15.0">
+                           <image>
+                              <Image url="@network.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust hue="-0.07" saturation="-0.55" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <Line blendMode="OVERLAY" endX="100.0" layoutX="34.0" layoutY="324.0" startX="-10.0" stroke="WHITE" strokeWidth="0.5" />
+               </children>
+            </Pane>
+            <Pane id="main" prefHeight="670.0" prefWidth="632.0">
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+               <children>
+                  <TextField fx:id="textField" layoutX="38.0" layoutY="29.0" prefHeight="35.0" prefWidth="556.0" promptText="please enter a word to start" styleClass="text-field" stylesheets="@style.css">
+                     <effect>
+                        <DropShadow color="#b0b0b06e" height="12.1" radius="5.55" width="12.1" />
+                     </effect>
+                  </TextField>
+                  <TreeView fx:id="treeView1" layoutX="38.0" layoutY="87.0" prefHeight="312.0" prefWidth="263.0" stylesheets="@style.css">
+                     <effect>
+                        <DropShadow color="#a2a2b88f" height="12.1" radius="5.49" width="11.86" />
+                     </effect>
+                  </TreeView>
+                  <TreeView fx:id="treeView2" layoutX="328.0" layoutY="87.0" prefHeight="312.0" prefWidth="263.0" stylesheets="@style.css">
+                     <effect>
+                        <DropShadow color="#a2a2b88f" height="12.1" radius="5.49" width="11.86" />
+                     </effect>
+                  </TreeView>
+                  <BarChart fx:id="bc" legendSide="BOTTOM"  alternativeColumnFillVisible="true" barGap="2.0" layoutX="38.0" layoutY="429.0" legendVisible="true" prefHeight="193.0" prefWidth="556.0" styleClass="area-chart" stylesheets="@style.css" titleSide="TOP" title="Tree vs LinkList">
+                    <xAxis>
+                      <CategoryAxis fx:id="xaxis" side="BOTTOM" label="Method"/>
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="yaxis" side="LEFT" label="Time" />
+                    </yAxis>
+                     <effect>
+                        <DropShadow color="#ababab93" height="12.1" radius="5.55" width="12.1" />
+                     </effect>
+                  </BarChart>
+                  <JFXButton id="goButton" fx:id="goBtn" layoutX="39.0" layoutY="29.0" prefHeight="35.0" prefWidth="65.0" styleClass="goButton" stylesheets="@style.css" text="Go :">
+                     <effect>
+                        <DropShadow color="#b5b5b5" height="12.1" radius="2.525" width="0.0" />
+                     </effect>
+                  </JFXButton>
+                  <Label alignment="CENTER" graphicTextGap="8.0" layoutX="233.0" layoutY="96.0" prefWidth="57.0" styleClass="tag" stylesheets="@style.css" text="Tree" underline="true">
+                     <effect>
+                        <DropShadow color="#000000a1" height="9.14" radius="4.07" width="9.14" />
+                     </effect>
+                  </Label>
+                  <Label alignment="CENTER" graphicTextGap="8.0" layoutX="500.0" layoutY="96.0" prefWidth="82.0" styleClass="tag" stylesheets="@style.css" text="Link List" underline="true">
+                     <effect>
+                        <DropShadow color="#000000a1" height="9.14" radius="4.07" width="9.14" />
+                     </effect>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>

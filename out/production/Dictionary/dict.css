@@ -1,0 +1,148 @@
+.pane{
+//    -fx-opacity: 0.9;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(250,250,250,1) ;
+
+    -fx-border-insets: -10px;
+    -fx-background-insets: -10px;
+ //   -fx-alternative-row-fill-visible: true;
+  //  -fx-border-color: lightseagreen;
+  //  -fx-fill: rgba(0,0,0,0.4);
+
+
+}
+
+.button2{
+    -fx-background-color: teal;
+    -fx-fill: white;
+    -fx-font-weight: 900;
+    -fx-text-fill: white;
+    -fx-border-radius: 2px;
+    -fx-border-color: seagreen;
+
+}
+
+.button{
+    -fx-background-color: transparent;
+    -fx-fill: black;
+    -fx-font-weight: 900;
+    -fx-text-fill: lightyellow;
+    -fx-border-radius: .5px;
+    -fx-border-width: .5px;
+    -fx-border-color: transparent;
+}
+.button:hover{
+//    -fx-stroke-width: 5px;
+    //-fx-effect: dropshadow(three-pass-box, slategray, .4, 400.0, 1, 1);
+  //  -fx-border-width: 5px;
+  //  -fx-background-color: seagreen;
+
+    -fx-border-color: white;
+
+}
+.cont{
+    -fx-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#big{
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, navajowhite 0%,salmon 70%,darkred 99%);
+
+
+//  -fx-border-color: transparent;
+    //-fx-background-color: ;
+}
+
+.menu{
+    -fx-background-color: white;
+    -fx-fill: ghostwhite;
+}
+
+#browse{
+    -fx-background-color: transparent;
+    -fx-border-radius: 1px;
+//    -fx-border-color: ;
+    -fx-border-width: .5px;
+}
+
+.tree{
+
+    -fx-text-fill: transparent;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-alternative-row-fill-visible: true;
+    -fx-padding: 1px;
+}
+
+
+
+.tree-cell{
+    -fx-background-color: white;
+    -fx-text-fill: teal;
+   // -fx-font-family: monospace;
+    -fx-font-weight: 900;
+    -fx-label-padding: 2px;
+    -fx-padding: 6px;
+    -fx-tick-label-fill: green;
+    -fx-border-width: .1px;
+    -fx-border-color: rgba(0,0,0,0.15);
+  //  -fx-border-radius: 10px;
+
+
+}
+
+
+.tree-cell:hover {
+    -fx-text-fill: teal;
+    -fx-border-color: teal;
+}
+
+.tree-cell .tree-disclosure-node .arrow {
+
+    -fx-fill: teal;
+}
+.tree-cell:expanded .tree-disclosure-node .arrow {
+  -fx-fill: coral;
+}
+
+.thumb{
+    -fx-background-color: teal;
+    -fx-border-radius: 9px;
+}
+.track{
+    -fx-background-color: white;
+    -fx-opacity: 0.0;
+    -fx-base: transparent;
+
+    visibility: hidden;
+}
+.track-background{
+    -fx-background-color: white;
+    -fx-opacity: 0.0;
+    -fx-base: transparent;
+
+    visibility: hidden;
+}
+
+
+
+.tree .track-background{
+    -fx-background-color: teal;
+    -fx-opacity: 0.0;
+    -fx-base: transparent;
+}
+
+.tree-cell .label{
+    -fx-text-fill: coral;
+}
+
+.text-field{
+    -fx-highlight-fill: crimson;
+    -fx-background-color: azure;
+}
+
+.rect{
+    -fx-background-color: teal;
+}

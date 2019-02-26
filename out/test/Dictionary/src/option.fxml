@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#setOptionLabel" prefHeight="125.0" prefWidth="678.0" styleClass="cont" stylesheets="@dict1.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main">
+   <children>
+      <ImageView fitHeight="60.0" fitWidth="68.0" layoutX="14.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@plus.png" />
+         </image>
+         <effect>
+            <DropShadow color="#616161" />
+         </effect>
+      </ImageView>
+      <Label fx:id="optionLabel" layoutX="110.0" layoutY="34.0" prefHeight="60.0" prefWidth="392.0" textFill="#2c2c2c" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="addBtn" layoutX="547.0" layoutY="49.0" onAction="#openAddPane" text="YES" />
+      <JFXButton layoutX="600.0" layoutY="50.0" onAction="#closeOptionPane" text="NO" />
+   </children>
+</AnchorPane>

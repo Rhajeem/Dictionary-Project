@@ -1,0 +1,18 @@
+2017-04-25 23:30:19,459 WARN [JavaFX Application Thread] o.j.a.c.a.AbstractApplication [AbstractApplication.java:500] No style sheet has been added to the scene, will link the default.css
+2017-04-25 23:30:19,465 ERROR [JavaFX Application Thread] o.j.a.c.r.s.StyleSheetBuilder [StyleSheetBuilder.java:111] Style Sheet : default/default.css not found into base folder: [styles]
+2017-04-25 23:30:19,466 ERROR [JavaFX Application Thread] o.j.a.c.a.AbstractApplication [AbstractApplication.java:445] Impossible to load CSS: org.jrebirth.af.core.resource.style.StyleSheetItemBase@72e49ed9 using folder: [styles]/
+2017-04-25 23:30:19,922 DEBUG [JavaFX Application Thread] o.j.a.s.f.u.m.FXMLShowCaseView [FXMLShowCaseView.java:76] Start the View and fire the first tab
+2017-04-25 23:30:19,928 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-04-25 23:30:19,930 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-04-25 23:30:20,094 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-04-25 23:30:20,095 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-04-25 23:30:20,322 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-04-25 23:30:32,308 WARN [JavaFX Application Thread] o.j.a.c.a.AbstractApplication [AbstractApplication.java:500] No style sheet has been added to the scene, will link the default.css
+2017-04-25 23:30:32,319 ERROR [JavaFX Application Thread] o.j.a.c.r.s.StyleSheetBuilder [StyleSheetBuilder.java:111] Style Sheet : default/default.css not found into base folder: [styles]
+2017-04-25 23:30:32,320 ERROR [JavaFX Application Thread] o.j.a.c.a.AbstractApplication [AbstractApplication.java:445] Impossible to load CSS: org.jrebirth.af.core.resource.style.StyleSheetItemBase@6b2985b6 using folder: [styles]/
+2017-04-25 23:30:32,830 DEBUG [JavaFX Application Thread] o.j.a.s.f.u.m.FXMLShowCaseView [FXMLShowCaseView.java:76] Start the View and fire the first tab
+2017-04-25 23:30:32,835 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-04-25 23:30:32,838 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-04-25 23:30:32,985 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-04-25 23:30:32,986 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-04-25 23:30:33,211 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null

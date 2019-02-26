@@ -1,0 +1,71 @@
+2017-03-24 18:23:18,198 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.demo.workbench.ui.TabDemoModel
+2017-03-24 18:23:18,857 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-03-24 18:23:27,166 DEBUG [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:147] Page Model currently displayed: class org.jrebirth.af.demo.workbench.ui.TabDemoModel
+2017-03-24 18:23:28,054 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.main.FXMLShowCaseModel
+2017-03-24 18:23:28,729 DEBUG [JavaFX Application Thread] o.j.a.s.f.u.m.FXMLShowCaseView [FXMLShowCaseView.java:76] Start the View and fire the first tab
+2017-03-24 18:23:28,767 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-03-24 18:23:28,792 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-03-24 18:23:28,801 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-03-24 18:23:28,804 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-03-24 18:23:29,985 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-03-24 18:27:53,677 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-03-24 18:27:53,680 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-03-24 18:28:09,617 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: IncludedFxml
+2017-03-24 18:28:09,626 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: org.jrebirth.af.showcase.fxml.ui.included.IncludedModel|org.jrebirth.af.showcase.fxml.beans.LoremIpsum@67a757d9|
+2017-03-24 18:28:58,134 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-03-24 18:28:58,136 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-03-24 18:29:17,828 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: HybridFxml
+2017-03-24 18:29:17,830 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: org.jrebirth.af.showcase.fxml.ui.hybrid.HybridModel|fxml:org.jrebirth.af.showcase.fxml.ui.hybrid.Hybrid|
+2017-03-24 18:29:27,739 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.undoredo.ui.UndoModel
+2017-03-24 18:29:27,794 DEBUG [JavaFX Application Thread] o.j.a.s.f.u.m.FXMLShowCaseView [FXMLShowCaseView.java:94] Hide the Sample View
+2017-03-24 18:29:28,391 DEBUG [JavaFX Application Thread] o.j.a.s.u.u.UndoView [UndoView.java:99] Start the Sample View
+2017-03-24 18:29:39,289 INFO [JIT] o.j.a.u.s.UndoRedoService [UndoRedoService.java:104] No more command to redo, end of stack
+2017-03-24 18:29:42,850 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.demo.workbench.ui.TabDemoModel
+2017-03-24 18:29:42,895 DEBUG [JavaFX Application Thread] o.j.a.s.u.u.UndoView [UndoView.java:117] Hide the Sample View
+2017-03-27 00:59:02,669 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.demo.workbench.ui.TabDemoModel
+2017-03-27 00:59:03,314 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-03-27 00:59:05,231 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.main.FXMLShowCaseModel
+2017-03-27 00:59:05,924 DEBUG [JavaFX Application Thread] o.j.a.s.f.u.m.FXMLShowCaseView [FXMLShowCaseView.java:76] Start the View and fire the first tab
+2017-03-27 00:59:05,975 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-03-27 00:59:05,999 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-03-27 00:59:06,014 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-03-27 00:59:06,016 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-03-27 00:59:07,355 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-03-27 00:59:11,121 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-03-27 00:59:11,122 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-03-27 00:59:12,548 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: IncludedFxml
+2017-03-27 00:59:12,553 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: org.jrebirth.af.showcase.fxml.ui.included.IncludedModel|org.jrebirth.af.showcase.fxml.beans.LoremIpsum@2f5151ba|
+2017-03-27 00:59:14,486 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: HybridFxml
+2017-03-27 00:59:14,488 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: org.jrebirth.af.showcase.fxml.ui.hybrid.HybridModel|fxml:org.jrebirth.af.showcase.fxml.ui.hybrid.Hybrid|
+2017-03-31 14:39:46,307 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.demo.workbench.ui.TabDemoModel
+2017-03-31 14:39:46,886 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-03-31 14:39:48,294 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.undoredo.ui.UndoModel
+2017-03-31 14:39:49,095 DEBUG [JavaFX Application Thread] o.j.a.s.u.u.UndoView [UndoView.java:99] Start the Sample View
+2017-03-31 14:39:50,339 DEBUG [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:147] Page Model currently displayed: class org.jrebirth.af.showcase.undoredo.ui.UndoModel
+2017-03-31 14:39:51,181 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.main.FXMLShowCaseModel
+2017-03-31 14:39:51,248 DEBUG [JavaFX Application Thread] o.j.a.s.u.u.UndoView [UndoView.java:117] Hide the Sample View
+2017-03-31 14:39:51,849 DEBUG [JavaFX Application Thread] o.j.a.s.f.u.m.FXMLShowCaseView [FXMLShowCaseView.java:76] Start the View and fire the first tab
+2017-03-31 14:39:51,920 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-03-31 14:39:51,944 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-03-31 14:39:51,952 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-03-31 14:39:51,955 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-03-31 14:39:52,983 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-03-31 14:40:04,751 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-03-31 14:40:04,753 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-03-31 14:40:13,194 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-03-31 14:40:13,195 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-03-31 14:40:21,754 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: IncludedFxml
+2017-03-31 14:40:21,761 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: org.jrebirth.af.showcase.fxml.ui.included.IncludedModel|org.jrebirth.af.showcase.fxml.beans.LoremIpsum@b4dacd1|
+2017-03-31 14:40:38,137 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: HybridFxml
+2017-03-31 14:40:38,140 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: org.jrebirth.af.showcase.fxml.ui.hybrid.HybridModel|fxml:org.jrebirth.af.showcase.fxml.ui.hybrid.Hybrid|
+2017-03-31 14:40:44,472 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-03-31 14:40:44,474 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-03-31 15:03:11,396 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.demo.workbench.ui.TabDemoModel
+2017-03-31 15:03:12,032 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null
+2017-03-31 15:03:13,803 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.main.FXMLShowCaseModel
+2017-03-31 15:03:14,562 DEBUG [JavaFX Application Thread] o.j.a.s.f.u.m.FXMLShowCaseView [FXMLShowCaseView.java:76] Start the View and fire the first tab
+2017-03-31 15:03:14,758 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: StandaloneFxml
+2017-03-31 15:03:14,779 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.standalone.StandaloneModel
+2017-03-31 15:03:14,791 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:87] Show Page Enum: ViewEmbeddedFxml
+2017-03-31 15:03:14,795 INFO [JavaFX Application Thread] o.j.a.c.u.s.StackModel [StackModel.java:132] Show Page Model: class org.jrebirth.af.showcase.fxml.ui.embedded.EmbeddedModel
+2017-03-31 15:03:21,369 WARN [JavaFX Application Thread] o.j.a.c.c.b.s.DetachModelCommand [DetachModelCommand.java:53] Impossible to detach a model because hideModel is null

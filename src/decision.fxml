@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5379939209726444" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="331.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main">
+  <items>
+    <AnchorPane fx:id="anchor" minHeight="0.0" minWidth="0.0" onMouseEntered="#setOptionLabel" prefHeight="0.0" prefWidth="280.0" styleClass="cont2" stylesheets="@dict1.css">
+         <children>
+            <JFXButton fx:id="yesNew" layoutX="93.0" layoutY="255.0" onAction="#changeView" text="YES" />
+            <JFXButton fx:id="noNew" layoutX="153.0" layoutY="255.0" onAction="#closeAdd" text="NO" />
+            <Label layoutX="23.0" layoutY="81.0" prefHeight="137.0" prefWidth="236.0" text="This word was not found in the dictionary, would you like to add it now?" textFill="#4d4d4d" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelNew" alignment="CENTER" layoutX="72.0" layoutY="48.0" prefHeight="53.0" prefWidth="120.0" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="392.0" prefWidth="122.0" styleClass="cont2" stylesheets="@dict1.css">
+         <children>
+            <JFXButton fx:id="addNew" layoutX="77.0" layoutY="262.0" onAction="#addUp" styleClass="button2" stylesheets="@dict1.css" text="Add" />
+            <JFXButton fx:id="cancelNew" cancelButton="true" layoutX="159.0" layoutY="262.0" onAction="#closeAdd" styleClass="button2" stylesheets="@dict1.css" text="Cancel" />
+            <TextField fx:id="wordNew" layoutX="24.0" layoutY="49.0" prefHeight="25.0" prefWidth="236.0" />
+            <TextField fx:id="posNew" layoutX="24.0" layoutY="90.0" prefHeight="25.0" prefWidth="236.0" />
+            <TextArea fx:id="meaningNew" layoutX="26.0" layoutY="139.0" prefHeight="105.0" prefWidth="236.0" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

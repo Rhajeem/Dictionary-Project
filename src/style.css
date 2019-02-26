@@ -1,0 +1,108 @@
+.toggle-button{
+    -fx-background-color: transparent;
+    -fx-pref-height: 45px;
+    -fx-pref-width: 159px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #ccc;
+    -fx-alignment: center-left 20%;
+
+}
+
+.toggle-button:hover{
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, lightseagreen 0%,lightseagreen 3%,rgba(0,0,0,0.1) 4%);
+}
+
+.toggle-button:selected{
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, lightseagreen 0%,lightseagreen 3%,rgba(0,10,10,0.5) 4%);
+
+
+}
+
+.topBar{
+    -fx-background-color: rgba(255,255,255,1.0);
+    //-fx-effect: dropshadow(three-pass-box, lightgray, 5.4, 4000, 1, 1);
+}
+.sideBar{
+    -fx-background-color: rgba(5,25,40,1.0);
+}
+.tree-view{
+    -fx-border-color: white;
+
+}
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: white;
+}
+.chart-content {
+    -fx-padding: 6px;
+
+}
+.chart-legend {
+    -fx-background-color:  red;
+    -fx-padding: 20px;
+}
+
+.chart-legend-item-symbol{
+    -fx-background-radius: 0;
+}
+
+.chart-legend-item{
+    -fx-text-fill: #191970;
+}
+
+.chart-title {
+    -fx-text-fill: #4682b4;
+    -fx-font-size: 1.6em;
+}
+
+
+.chart-plot-background {
+    -fx-background-color: #e2ecfe;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}
+
+.chart-alternative-row-fill {
+    -fx-fill: #99bcfd;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.axis-label {
+    -fx-text-fill: #4682b4;
+}
+.text-field{
+    -fx-border-color: transparent;
+//    -fx-background-color: transparent;
+//    -fx-background-insets: 1px;
+ //   -fx-border-insets: -15px;
+    -fx-border-radius:0 23 23 0;
+    -fx-background-radius: 0 23 23 0;
+    -fx-highlight-fill: teal;
+    -fx-padding: 0px 67px;
+
+}
+
+#goButton{
+    -fx-border-radius:0 23 23 0;
+    -fx-background-radius: 0 23 23 0;
+    -fx-background-color:transparent;
+    -fx-text-fill: darkslategray;
+
+}
+.tag{
+    -fx-opacity: 0.2;
+    -fx-border-radius:15;
+    -fx-background-radius: 15;
+    -fx-background-color: rgba(5,25,40,0.3);
+  //  -fx-label-padding: 10px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: darkslategrey;
+
+
+}
